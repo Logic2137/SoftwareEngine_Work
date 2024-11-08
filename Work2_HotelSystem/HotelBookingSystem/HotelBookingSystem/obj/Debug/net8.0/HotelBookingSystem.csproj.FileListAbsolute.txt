@@ -1,0 +1,14 @@
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\bin\Debug\net8.0\HotelBookingSystem.exe
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\bin\Debug\net8.0\HotelBookingSystem.deps.json
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\bin\Debug\net8.0\HotelBookingSystem.runtimeconfig.json
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\bin\Debug\net8.0\HotelBookingSystem.dll
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\bin\Debug\net8.0\HotelBookingSystem.pdb
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.AssemblyInfoInputs.cache
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.AssemblyInfo.cs
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.csproj.CoreCompileInputs.cache
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.dll
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\refint\HotelBookingSystem.dll
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.pdb
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.genruntimeconfig.cache
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\ref\HotelBookingSystem.dll

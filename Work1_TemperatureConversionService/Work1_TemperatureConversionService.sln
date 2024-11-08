@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Work1_TemperatureConversionService", "Work1_TemperatureConversionService\", "{22E71679-5145-4B05-88B5-59C374B0E850}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_9243"
+		Debug.AspNetCompiler.PhysicalPath = "Work1_TemperatureConversionService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9243\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_9243"
+		Release.AspNetCompiler.PhysicalPath = "Work1_TemperatureConversionService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9243\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9243"
+		SlnRelativePath = "Work1_TemperatureConversionService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureConverterClient", "TemperatureConverterClient\TemperatureConverterClient.csproj", "{1A2C85C2-55D1-4DF4-913B-8C289367F9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee", "Coffee\Coffee.csproj", "{F5F9FA6E-E293-4064-B8FD-F59264678996}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22E71679-5145-4B05-88B5-59C374B0E850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E71679-5145-4B05-88B5-59C374B0E850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E71679-5145-4B05-88B5-59C374B0E850}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E71679-5145-4B05-88B5-59C374B0E850}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1A2C85C2-55D1-4DF4-913B-8C289367F9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2C85C2-55D1-4DF4-913B-8C289367F9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2C85C2-55D1-4DF4-913B-8C289367F9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2C85C2-55D1-4DF4-913B-8C289367F9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F9FA6E-E293-4064-B8FD-F59264678996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F9FA6E-E293-4064-B8FD-F59264678996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F9FA6E-E293-4064-B8FD-F59264678996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F9FA6E-E293-4064-B8FD-F59264678996}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB32DA39-B5DA-4914-9184-17D1592FA576}
+	EndGlobalSection
+EndGlobal
