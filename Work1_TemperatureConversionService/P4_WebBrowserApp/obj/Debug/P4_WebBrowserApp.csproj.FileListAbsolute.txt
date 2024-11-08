@@ -1,0 +1,10 @@
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\bin\Debug\P4_WebBrowserApp.exe.config
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\bin\Debug\P4_WebBrowserApp.exe
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\bin\Debug\P4_WebBrowserApp.pdb
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\obj\Debug\P4_WebBrowserApp.csproj.AssemblyReference.cache
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\obj\Debug\P4_WebBrowserApp.Form1.resources
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\obj\Debug\P4_WebBrowserApp.Properties.Resources.resources
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\obj\Debug\P4_WebBrowserApp.csproj.GenerateResource.cache
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\obj\Debug\P4_WebBrowserApp.csproj.CoreCompileInputs.cache
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\obj\Debug\P4_WebBrowserApp.exe
+C:\GSY_User_Sys\C#_Project\Work1_TemperatureConversionService\P4_WebBrowserApp\obj\Debug\P4_WebBrowserApp.pdb
