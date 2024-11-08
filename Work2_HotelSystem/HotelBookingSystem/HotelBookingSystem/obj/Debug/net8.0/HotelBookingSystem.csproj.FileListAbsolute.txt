@@ -12,3 +12,4 @@ D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\
 D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.pdb
 D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.genruntimeconfig.cache
 D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\ref\HotelBookingSystem.dll
+D:\C#_Project\Work2_HotelSystem\HotelBookingSystem\HotelBookingSystem\obj\Debug\net8.0\HotelBookingSystem.sourcelink.json

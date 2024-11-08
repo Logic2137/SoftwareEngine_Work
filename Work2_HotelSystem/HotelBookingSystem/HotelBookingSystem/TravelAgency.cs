@@ -23,6 +23,7 @@ namespace HotelBookingSystem
             return now.ToString("yyyy-MM-dd HH:mm:ss");
         }
 
+        // 降价事件处理函数
         public void OnPriceCut()
         {
             int roomsToOrder = rand.Next(1, 5);  // 随机生成订单数量
@@ -38,7 +39,7 @@ namespace HotelBookingSystem
             };
 
             string encodedOrder = Encoder.EncodeOrder(order);
-            MultiCellBuffer.SetOneCell(encodedOrder);
+            MultiCellBuffer.SetOneCell(encodedOrder);  // TravelAgency将编码字符串发送到MultiCellBuffer中的一个空闲单元格。
         }
     }
 

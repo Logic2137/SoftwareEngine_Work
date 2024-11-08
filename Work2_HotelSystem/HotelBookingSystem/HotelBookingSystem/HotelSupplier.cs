@@ -25,16 +25,9 @@ namespace HotelBookingSystem
                     Console.WriteLine($"开始{priceCutCount+1}次降价处理");
                     PriceCutEvent?.Invoke();
                     priceCutCount++;
+                    this.ProcessingAllOrder(newPrice);
                 }
                 currentPrice = newPrice;
-
-                string encodedOrder = MultiCellBuffer.GetOneCell();
-                if (encodedOrder != null)
-                {
-                    OrderClass orderClass = Decoder.DecodeOrder(encodedOrder);
-                    OrderProcessing orderProcessing = new OrderProcessing();
-                    orderProcessing.ProcessOrder(orderClass, currentPrice);
-                }
 
                 Thread.Sleep(500);
             }
@@ -45,6 +38,23 @@ namespace HotelBookingSystem
             // 随机函数来模拟价格变化
             Random rand = new Random();
             return rand.Next(300, 600);
+        }
+
+        private void ProcessingAllOrder(int lowPrice)
+        {
+            string encodedOrder = null;
+            do
+            {
+                encodedOrder = MultiCellBuffer.GetOneCell();  // HotelSupplier从MultiCellBuffer接收编码字符串，并将字符串发送到解码器进行解码。
+                if (encodedOrder != null)
+                {
+                    OrderClass orderClass = Decoder.DecodeOrder(encodedOrder);  // （7） 解码器将OrderObject发送给HotelSupplier。解码对象必须包含TravelAgency生成的相同值。
+                    OrderProcessing orderProcessing = new OrderProcessing();
+                    Thread orderProcessingThread = new Thread(() => orderProcessing.ProcessOrder(orderClass, lowPrice));
+                    orderProcessingThread.Start();
+                    // orderProcessing.ProcessOrder(orderClass, lowPrice);
+                }
+            } while (encodedOrder != null);
         }
     }
 

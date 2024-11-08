@@ -13,8 +13,8 @@ namespace HotelBookingSystem
             if (order.CardNumber >= 5000 && order.CardNumber <= 7000)
             {
                 int totalCost = order.Amount * hotelPrice; // 假设单价为500
-                Console.WriteLine($"订单处理成功，发送者ID: {order.SenderId}\n 旅行社名: {order.AgencyName}\n" + 
-                    $" 房间数: {order.Amount}\n 总费用: {totalCost}\n 订单创建时间: {order.OrderTime}\n\r");
+                Console.WriteLine($"订单处理成功，发送线程ID: {order.SenderId}\n 当前处理线程ID: {Thread.CurrentThread.ManagedThreadId}\n" + 
+                    $" 旅行社名: {order.AgencyName}\n 房间数: {order.Amount}\n 总费用: {totalCost}\n 订单创建时间: {order.OrderTime}\n\r");
             }
             else
             {
