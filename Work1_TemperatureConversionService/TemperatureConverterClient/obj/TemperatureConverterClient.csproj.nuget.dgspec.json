@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\TemperatureConverterClient.csproj": {}
+    "C:\\GSY_User_Sys\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\TemperatureConverterClient.csproj": {}
   },
   "projects": {
-    "D:\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\TemperatureConverterClient.csproj": {
+    "C:\\GSY_User_Sys\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\TemperatureConverterClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\TemperatureConverterClient.csproj",
+        "projectUniqueName": "C:\\GSY_User_Sys\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\TemperatureConverterClient.csproj",
         "projectName": "TemperatureConverterClient",
-        "projectPath": "D:\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\TemperatureConverterClient.csproj",
-        "packagesPath": "C:\\Users\\Logic\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\obj\\",
+        "projectPath": "C:\\GSY_User_Sys\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\TemperatureConverterClient.csproj",
+        "packagesPath": "C:\\Users\\Gao\\.nuget\\packages\\",
+        "outputPath": "C:\\GSY_User_Sys\\C#_Project\\Work1_TemperatureConversionService\\TemperatureConverterClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Logic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
