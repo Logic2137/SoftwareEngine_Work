@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace HotelBookingSystem
 {
+    /**
+     * 解码器将编码字符串转换回OrderObject。
+     */
     public class Decoder
     {
         public static OrderClass DecodeOrder(string encodedOrder)

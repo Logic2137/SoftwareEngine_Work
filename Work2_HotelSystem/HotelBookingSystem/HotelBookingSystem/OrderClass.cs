@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace HotelBookingSystem
 {
-    public class OrderClass
+    /**
+     * OrderClass是一个至少包含SenderId CardNumber Amount
+     */
+    public class OrderClass //每个订单都是一个OrderClass对象。
     {
         public int SenderId { get; set; }
         public int CardNumber { get; set; }
