@@ -10,6 +10,7 @@ namespace HotelBookingSystem
     {
         private string agencyName;
         private Random rand = new Random();
+        private int ThreadIndex = 0;
 
         public TravelAgency(string name)
         {
@@ -40,6 +41,16 @@ namespace HotelBookingSystem
 
             string encodedOrder = Encoder.EncodeOrder(order);
             MultiCellBuffer.SetOneCell(encodedOrder);  // TravelAgency将编码字符串发送到MultiCellBuffer中的一个空闲单元格。
+        }
+
+        public void RunAgency()
+        {
+            // 旅行社的线程运行逻辑，可以是等待降价事件的发生并处理订单
+            while (true)
+            {
+                // 这里可以加入具体的业务逻辑，例如等待事件发生，或者处理其他任务
+                Thread.Sleep(1000); // 模拟旅行社的运行状态
+            }
         }
     }
 
