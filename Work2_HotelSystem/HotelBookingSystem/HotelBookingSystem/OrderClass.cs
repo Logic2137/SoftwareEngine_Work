@@ -12,7 +12,7 @@ namespace HotelBookingSystem
     public class OrderClass //每个订单都是一个OrderClass对象。
     {
         public int SenderId { get; set; }
-        public int CardNumber { get; set; }
+        public string CardNumber { get; set; }
         public int Amount { get; set; }
 
         public string OrderTime { get; set; }

@@ -27,6 +27,9 @@ public class Program
 
         //hotelSupplier.PriceCutEvent += travelAgency1.OnPriceCut;
         //hotelSupplier.PriceCutEvent += travelAgency2.OnPriceCut;
+        hotelSupplier.RegCreditCardID("5023958311730285");
+        hotelSupplier.RegCreditCardID("6385028598820285");
+        hotelSupplier.RegCreditCardID("6999620102820285");
 
         // 启动酒店供应商线程
         Thread hotelThread = new Thread(new ThreadStart(hotelSupplier.StartHotelSupplier));

@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Gao\\.nuget\\packages\\": {}
+    "C:\\Users\\Logic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GSY_User_Sys\\C#_Project\\SoftwareEngine_Work\\Work2_HotelSystem\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
+      "projectUniqueName": "D:\\C#_Project\\Work2_HotelSystem\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
       "projectName": "HotelBookingSystem",
-      "projectPath": "C:\\GSY_User_Sys\\C#_Project\\SoftwareEngine_Work\\Work2_HotelSystem\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
-      "packagesPath": "C:\\Users\\Gao\\.nuget\\packages\\",
-      "outputPath": "C:\\GSY_User_Sys\\C#_Project\\SoftwareEngine_Work\\Work2_HotelSystem\\HotelBookingSystem\\HotelBookingSystem\\obj\\",
+      "projectPath": "D:\\C#_Project\\Work2_HotelSystem\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
+      "packagesPath": "C:\\Users\\Logic\\.nuget\\packages\\",
+      "outputPath": "D:\\C#_Project\\Work2_HotelSystem\\HotelBookingSystem\\HotelBookingSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Logic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
